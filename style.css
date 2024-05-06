@@ -1,0 +1,270 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    background-image: #F5F5F5;
+}
+
+body h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    background-image: linear-gradient(to top, white 90% , rgba(231, 231, 231, 0.87));
+    min-height: 150px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+header > h1 {
+    color: #394D66;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.233);
+}
+
+header > p {
+    font-size: 1.2em;
+    color: #394D66;
+    max-width: 600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.233);
+}
+
+nav { 
+    background-image: linear-gradient(to bottom, white 80% , rgba(231, 231, 231, 0.87));
+    color: #394D66;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.300);
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #394D66;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: #AAAAAA;
+    color: rgb(3, 41, 41);
+    text-decoration: underline;
+}
+
+main {
+    height: 100%;
+    min-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+main > div.cont-01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
+    top: 0; 
+    width: 100%; 
+    height: 500px; 
+    background-image: url(imagens/background/background11.jpg);
+    background-size: 150% auto; 
+    background-position: center center;
+}
+
+main > div.cont-01 > h1 {
+    text-size-adjust: 1em;
+    color: #ffffff;
+}
+
+main > div.cont-01 > h2 {
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+main > div.cont-01 > button {
+    margin: 30px;
+    padding: 10px;
+    border-style: none;
+    background-color: #394d669a;
+    border-radius: 2px;  
+}
+
+main > div.cont-01 > button > a {
+    color: white;
+    text-decoration: none;
+}
+
+main > div.cont-01 > button:hover {
+    background-color: #1f2a38;
+}
+
+main > div.cont-02 {
+    box-shadow: 2px 5px 16px rgb(211, 211, 211);
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-size: 100% auto; 
+    padding-top: 100px;
+    text-align: center;
+}
+
+main > div.cont-02 > h2 {
+    text-align: center;
+}
+
+main > div.cont-02 > div > a {
+    text-decoration: none;
+} 
+
+main > div.cont-02 > div > a:hover {
+    color: #1f2a38;
+    text-decoration: underline;
+}
+
+main > div.cont-02 > div {
+    width: 245px;
+    height: 300px;
+    display: inline-block;
+    align-items:center ;
+}
+
+main > div.cont-02 > div > h3 {
+    padding: 30px;
+}
+
+main > div.cont-02 > div > p {
+    padding-bottom: 30px;
+}
+
+main > div.cont-02 > div > button {
+    padding: 10px;
+    border-style: none;
+}
+
+main > div.cont-02 > div.divider {
+    width: 1px;
+    background-color: rgb(0, 0, 0); 
+    height: 150px;
+    margin: 10px;
+  }
+
+main > div.cont-03 {
+    padding: 100px;
+}
+
+main > div.cont-03 > h1 {
+    padding: 20px;
+}
+
+main > div.cont-04 {
+    display: inline-block;
+    margin: 30px;
+}
+
+main > div.cont-04 > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 300px;
+    box-shadow: 2px 5px 16px rgb(211, 211, 211);
+}
+
+.cont-04 h3 {
+    padding: 20px;
+}
+
+.cont-04 p {
+    padding: 20px;
+}
+
+main > div.cont-05 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.527);
+    top: 0; 
+    width: 100%; 
+    height: 500px; 
+    background-image: url(imagens/background/background11.jpg);
+    background-size: 150% auto; 
+    background-position: center center;
+}
+
+main > div.cont-05 > h1 {
+    font-size: 3em;
+    color: #ffffff;
+}
+
+main > div.cont-05 > h2 {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+main > div.cont-05 > button {
+    margin: 30px;
+    padding: 10px;
+    border-style: none;
+    background-color: #394d669a;
+    border-radius: 2px;  
+}
+
+main > div.cont-05 > button > a {
+    color: white;
+    text-decoration: none;
+}
+
+
+main > div.cont-05 > button:hover {
+    background-color: #1f2a38;
+}
+
+main > div.cont-06 {
+    background-image: linear-gradient(to top, lightgray, white);
+    padding: 100px;
+}
+
+main > div.cont-06 {
+    padding: 50px;
+    text-align: center;
+}
+main > div.cont-06 > div {
+    width: 280px;
+    height: 250px;
+    display: inline-table;
+}
+
+main > div.cont-06 > div > h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: gray;
+    color: aliceblue;
+    background-color: gray;
+    text-align: center;
+}
