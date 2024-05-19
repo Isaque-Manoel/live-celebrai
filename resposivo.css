@@ -1,0 +1,32 @@
+@media(max-width: 425px) {
+    div.cont-02 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 3rem;
+    }
+
+    main > div.cont-02 > div {
+        height: 220px;
+    }
+
+    main > div.cont-02 > div.divider {
+        width: 70vw;
+        height: 1px;
+    }
+
+    main > div.cont-03 {
+        padding: 1rem;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-top:2rem ;
+    }
+
+}
